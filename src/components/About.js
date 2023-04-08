@@ -17,7 +17,7 @@ const About = () => {
               <br />
               • Database: MongoDB, Firebase, and MySQL
               <br />
-              • Hosting Platform: Netlifiy, Heroku, and GitHub
+              • Hosting Platform: Netlify, Heroku, and GitHub
               <br />
             </p>
           </div>
