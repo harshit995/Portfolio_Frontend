@@ -66,16 +66,16 @@ const Home = () => {
               <br />
             </p>
             <div className="btn_div mb-3">
-              <Button variant="danger" style={{ letterSpacing: "1px", border: "none", borderRadius: 4, background: "#2f2d69", marginRight: 24 }}> <Link to="https://github.com/harshit995" style={{
+              <Button variant="danger" style={{ letterSpacing: "1px", border: "none", borderRadius: 4, background: "#2f2d69", marginRight: 24 }}> <a href="https://github.com/harshit995" style={{
                 textDecoration: "none", color: "black"
 
 
-              }} >Github</Link></Button>
-              <Button variant="danger" style={{ letterSpacing: "1px", border: "none", borderRadius: 4, background: "#6c63ff" }}><Link to="https://www.linkedin.com/in/harshit-gupta-152987158/" style={{
+              }} >Github</a></Button>
+              <Button variant="danger" style={{ letterSpacing: "1px", border: "none", borderRadius: 4, background: "#6c63ff" }}><a href="https://www.linkedin.com/in/harshit-gupta-152987158/" style={{
                 textDecoration: "none", color: "black"
 
 
-              }}>LinkedIn</Link></Button>
+              }}>LinkedIn</a></Button>
 
             </div>
           </div>

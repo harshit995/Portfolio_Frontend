@@ -25,7 +25,10 @@ const Footer = () => {
           </div>
           <div className="third mt-5">
             <h4>About</h4>
-            <p>Resume</p>
+            <a href='https://docs.google.com/document/d/1n1K7qm2xFKOsFK3dX5c_aWUhnE9Buhn_JRHEnRmyba8/edit?usp=sharing' style={{
+              textDecoration: "none", color
+                : "white"
+            }}>Resume</a>
           </div>
         </div>
       </div>
