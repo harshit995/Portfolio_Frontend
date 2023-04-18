@@ -13,8 +13,8 @@ const Footer = () => {
             <h4>Harshit Gupta</h4>
             <p>© {year} Harshit Gupta All rights reserved</p>
             <p className='d-flex'>
-              <i className='fa-brands fa-instagram'></i>
-              <i className='fa-brands fa-facebook mx-3'></i>
+              <a href="https://www.instagram.com/harshit5545/"> <i className='fa-brands fa-instagram'></i></a>
+              <a href="https://www.facebook.com/guptharshit/"> <i class="fa-brands fa-facebook mx-3"></i></a>
             </p>
           </div>
           <div className="second mt-5">
