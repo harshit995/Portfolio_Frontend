@@ -27,10 +27,12 @@ const Internships = () => {
                                 projectData.map((el, index) => {
                                     return (
                                         <>
-                                            <Card style={{ width: '60rem', height: "22rem" }} className="mt-4 mb-4">
-                                                <Card.Img variant="top" style={{ width: '20rem', height: '11rem', marginLeft: -13 }} src={el.imgsrc} />
+                                            <Card style={{ width: '60rem', height: "26rem" }} className="mt-4 mb-4  ">
+                                                <Card.Img variant="top" style={{ width: '20rem', height: '11rem', margin: 'auto' }} src={el.imgsrc} />
                                                 <Card.Body className='d-flex justify-content-center flex-column'>
-                                                    <Card.Title className='text-center'>{el.CertificateName}</Card.Title>
+                                                    <Card.Title className='text-center'>{el.CompanyName}</Card.Title>
+                                                    <Card.Text className='text-center'>{el.Role}</Card.Text>
+                                                    <Card.Text className='text-center'>{el.Description}</Card.Text>
                                                     <Button variant="primary">
                                                         <a href={el.CertificateLink} target="_blank" className='text-decoration-none text-light'>Certificate Link</a>
                                                     </Button>
