@@ -39,7 +39,7 @@ const Home = () => {
               </Row>
             </Container>
             <p style={{ color: "#666", letterSpacing: ".5px", marginTop: 2, width: "max-content" }}>
-              ⦿ I'm a Pre-Final student at Vellore Institute of Technology ,Bhopal pursuing Computer Science Engineering.
+              ⦿ I'm a Final year student at Vellore Institute of Technology ,Bhopal pursuing Computer Science Engineering.
               <br />
 
               ⦿ An engineering student, with expertise in MERN Stack Development & Data Structures, and Algorithms,
@@ -54,7 +54,7 @@ const Home = () => {
 
               𝗔𝗖𝗛𝗜𝗘𝗩𝗘𝗠𝗘𝗡𝗧𝗦:
               <br />
-              • 300+ Total contributions till now over on GitHub.
+              • 500+ Total contributions till now over on GitHub.
               <br />
               • Contributed to open-source programs like GSWoC’21 and @HactoberFest'22
               <br />

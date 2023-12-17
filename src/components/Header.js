@@ -36,6 +36,8 @@ const Header = () => {
                             <NavLink to="/about" className="text-decoration-none" style={common}>About</NavLink>
                             <NavLink to="playlist" className="text-decoration-none" style={common}>Projects</NavLink>
                             <NavLink to="/contact" className="text-decoration-none" style={common}>Contact</NavLink>
+                            <NavLink to="/certifications" className="text-decoration-none" style={common}>Certifications</NavLink>
+                            <NavLink to="/internships" className="text-decoration-none" style={common}>Internships</NavLink>
                         </div>
 
 
@@ -52,7 +54,8 @@ const Header = () => {
                             <NavLink to="/about" className="text-decoration-none  mb-2" style={common}>About</NavLink>
                             <NavLink to="/playlist" className="text-decoration-none  mb-2" style={common}>Project</NavLink>
                             <NavLink to="/contact" className="text-decoration-none  mb-2" style={common}>Contact</NavLink>
-
+                            <NavLink to="/certifications" className="text-decoration-none" style={common}>Certifications</NavLink>
+                            <NavLink to="/internships" className="text-decoration-none" style={common}>Internships</NavLink>
                         </div>
                     </Offcanvas.Body>
                 </Offcanvas>

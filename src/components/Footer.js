@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="third mt-5">
             <h4>About</h4>
-            <a href='https://docs.google.com/document/d/1n1K7qm2xFKOsFK3dX5c_aWUhnE9Buhn_JRHEnRmyba8/edit?usp=sharing' style={{
+            <a href='https://drive.google.com/file/d/1Xz3lz5N-_zFQ_j1NneAYpHXW694wsCFY/view?usp=sharing' target='_blank' style={{
               textDecoration: "none", color
                 : "white"
             }}>Resume</a>
