@@ -27,10 +27,11 @@ const Playlist = () => {
                 projectData.map((el, index) => {
                   return (
                     <>
-                      <Card style={{ width: '20rem', height: "18rem" }} className="mt-4 mb-4">
+                      <Card style={{ width: '20rem', height: "32rem" }} className="mt-4 mb-4">
                         <Card.Img variant="top" style={{ width: '20rem', marginLeft: -13 }} src={el.imgsrc} />
                         <Card.Body className='d-flex justify-content-center flex-column'>
                           <Card.Title className='text-center'>{el.projectName}</Card.Title>
+                          <Card.Text>{el.desc}</Card.Text>
                           <Button variant="primary">
                             <a href={el.demo} target="_blank" className='text-decoration-none text-light'>Live Demo</a>
                           </Button>

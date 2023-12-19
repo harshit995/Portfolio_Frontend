@@ -35,10 +35,10 @@ const Header = () => {
                             <NavLink to="/" className="text-decoration-none" style={common}>Home</NavLink>
                             <NavLink to="/about" className="text-decoration-none" style={common}>About</NavLink>
                             <NavLink to="playlist" className="text-decoration-none" style={common}>Projects</NavLink>
-                            <NavLink to="/contact" className="text-decoration-none" style={common}>Contact</NavLink>
                             <NavLink to="/certifications" className="text-decoration-none" style={common}>Certifications</NavLink>
                             <NavLink to="/internships" className="text-decoration-none" style={common}>Internships</NavLink>
                             <NavLink to="/extrac" className="text-decoration-none" style={common}>ExtraCurricular</NavLink>
+                            <NavLink to="/contact" className="text-decoration-none" style={common}>Contact</NavLink>
                         </div>
 
 
@@ -54,10 +54,10 @@ const Header = () => {
                             <NavLink to="/" className="text-decoration-none  mb-2" style={common}>Home</NavLink>
                             <NavLink to="/about" className="text-decoration-none  mb-2" style={common}>About</NavLink>
                             <NavLink to="/playlist" className="text-decoration-none  mb-2" style={common}>Project</NavLink>
-                            <NavLink to="/contact" className="text-decoration-none  mb-2" style={common}>Contact</NavLink>
                             <NavLink to="/certifications" className="text-decoration-none" style={common}>Certifications</NavLink>
                             <NavLink to="/internships" className="text-decoration-none" style={common}>Internships</NavLink>
                             <NavLink to="/extrac" className="text-decoration-none" style={common}>Extra Curricular</NavLink>
+                            <NavLink to="/contact" className="text-decoration-none  mb-2" style={common}>Contact</NavLink>
                         </div>
                     </Offcanvas.Body>
                 </Offcanvas>
