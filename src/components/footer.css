@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
     width: 100%;
     color: #fff;
     min-height: 100px;
@@ -7,10 +7,39 @@
     background: #21262c;
 }
 
-/* .foort_container{
-    border: 2px solid red;
-} */
 
 .footer .first,.second,.third{
     width: 300px;
+} */
+
+.footer {
+    width: 100%;
+    color: #fff;
+    min-height: 100px;
+    position: relative;
+    bottom: 0;
+    background: #21262c;
+}
+
+.footer .first,
+.footer .second,
+.footer .third {
+    width: 100%;
+    /* Modified width for responsiveness */
+    max-width: 300px;
+    /* Set maximum width for smaller screens */
+    margin-bottom: 20px;
+    /* Added margin between footer sections */
+}
+
+@media (max-width: 768px) {
+
+    .footer .first,
+    .footer .second,
+    .footer .third {
+        width: 100%;
+
+        max-width: none;
+
+    }
 }

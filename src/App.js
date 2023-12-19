@@ -9,6 +9,7 @@ import Footer from "./components/Footer"
 import { Routes, Route } from "react-router-dom"
 import Certifications from './components/Certifications';
 import Internships from './components/Internships';
+import ExtraCurricular from './components/ExtraCurricular';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/playlist' element={<Playlist />} />
         <Route path='/certifications' element={<Certifications />} />
         <Route path='/internships' element={<Internships />} />
+        <Route path='/extrac' element={<ExtraCurricular />} />
       </Routes>
       <Footer />
     </>

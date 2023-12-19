@@ -69,7 +69,7 @@ const Contact = () => {
   return (
     <>
       <div className="container mb-3 contact">
-        <h2 className='text-center'>ContactUS</h2>
+        <h2 className='text-center'>Contact</h2>
         <div className="container mt-2">
           <Form className='row mt-2'>
             <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
